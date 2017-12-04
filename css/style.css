@@ -7,17 +7,26 @@ body{
 background-image: url("../img/backgrounds/landing.jpg");
 background-repeat: no-repeat;
 
-text-align: center;
+
+
 }
-img{
-  margin-top: 10%;
-}
-h1{
+.main img{
   margin-left: 43%;
 
+}
+.main p{
+  text-align: center;
 }
 .main strong{
  color: white;
  font-family: 'Raleway',sans-serif;
- 
+
+}
+.fastfood p{
+  width: 45%;
+  height:200%;
+  margin-left: 20%;
+}
+.fastfood img{
+  margin-left: 25%;
 }
