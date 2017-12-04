@@ -27,6 +27,17 @@ background-repeat: no-repeat;
   height:200%;
   margin-left: 20%;
 }
+.fastfood h5{
+  margin-left: 19%;
+
+}
 .fastfood img{
-  margin-left: 25%;
+  margin-left: 35%;
+}
+.fastfood h1{
+  margin-left: 19%;
+}
+
+.fastfood {
+  padding-top: 10%;
 }
