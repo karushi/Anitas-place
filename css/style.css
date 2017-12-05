@@ -7,8 +7,6 @@ body{
 background-image: url("../img/backgrounds/landing.jpg");
 background-repeat: no-repeat;
 
-
-
 }
 .main img{
   margin-left: 43%;
@@ -32,12 +30,12 @@ background-repeat: no-repeat;
 
 }
 .fastfood img{
-  margin-left: 35%;
+  margin-left: 30%;
 }
 .fastfood h1{
   margin-left: 19%;
 }
 
 .fastfood {
-  padding-top: 10%;
+  padding-top: 5%;
 }
