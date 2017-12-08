@@ -6,11 +6,12 @@ body{
 .main{
 background-image: url("../img/backgrounds/landing.jpg");
 background-repeat: no-repeat;
+background-size: 100% 100%;
 
 }
-.main img{
-  margin-left: 43%;
 
+.main img{
+  margin: 10% 0% 0% 40%;
 }
 .main p{
   text-align: center;
@@ -18,24 +19,47 @@ background-repeat: no-repeat;
 .main strong{
  color: white;
  font-family: 'Raleway',sans-serif;
-
+}
+.foodtop{
+background-color: #F15A29;
 }
 .fastfood p{
   width: 45%;
-  height:200%;
   margin-left: 20%;
+}
+.gallery{
+  color:#F15A29;
+    box-shadow: 0px 0px 0px 1px #F15A29;
+    margin-left: 20%;
 }
 .fastfood h5{
   margin-left: 19%;
-
-}
-.fastfood img{
-  margin-left: 30%;
 }
 .fastfood h1{
   margin-left: 19%;
 }
+.fastfood{
+  margin-top: 5%
 
-.fastfood {
-  padding-top: 5%;
+}
+.fastfood img{
+width: 100%;
+}
+.drink{
+  margin-top: 5%
+}
+.drink p{
+  width: 45%;
+  margin-left: 35%;
+}
+.drink h1{
+  margin-left: 35%;
+}
+.drink img{
+  margin-right: 20%;
+}
+.shadow{
+  box-shadow: 0px 0px 0px 15px #DCDCDC;
+  margin:20%;
+  margin-top:1%;
 }
