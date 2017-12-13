@@ -4,11 +4,17 @@
 <head>
   <title>Anita</title>
   <meta name="viewport" content="width=device-width, intial-scale=1.0">
-  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"rel=stylesheet /> -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--Font Stylesheets-->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--JS scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -39,12 +45,15 @@
             </div>
         <div class="col-md-3">
           <img src="img/foodtop/breakfast.jpg" alt="breakfast" />
-            </div>
+              <p>Breakfast</P>
+        </div>
         <div class="col-md-3">
           <img src="img/foodtop/lunch.jpg" alt="my photo" />
+            <p>lunch</P>
              </div>
         <div class="col-md-3">
           <img src="img/foodtop/dinner.jpg" alt="my photo" />
+          <p>Dinner</P>
         </div>
       </div>
     </div>
@@ -87,32 +96,53 @@
           </div>
         </div>
 
-        <div class="main2">
-
-          <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#FastFood">FastFood</a></li>
-               <li><a data-toggle="tab" href="#Drinks">Drinks</a></li>
-                 <li><a data-toggle="tab" href="#Chickens">Chickens</a></li>
-                  <li><a data-toggle="tab" href="#Rice">Rice </a></li>
-                    </ul>
-                    <div class="main-2">
-            <div class="row">
-              <div class="col-md-4">
-                    <img src="img/fastfood/chickenBurger.jpg" alt="my photo" />
-                    <h5>ChickenBurger</h5>
-                    </div>
-                      <div class="col-md-4">
-                        <img src="img/fastfood/beefBurger.jpg" alt="breakfast" />
-                        <h5>BeefBurger</h5>
-                         </div>
-                         <div class="col-md-4">
-                           <img src="img/fastfood/chickenizza.jpg" alt="my photo" />
-                           <h5>ChickenPizza</h5>
-                         </div>
-                      </div>
-                      </div>
-                    </div>
-
+        <div class="snacks">
+    <div class="snackTab">
+    <ul class="nav nav-tabs">
+      <li  class="active"><a data-toggle="tab" href="#fastFood">Fast Food</a></li>
+      <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
+      <li><a data-toggle="tab" href="#chicken">Chicken</a></li>
+      <li><a data-toggle="tab" href="#rice">Rice</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="fastFood" class="tab-pane fade in active">
+        <div class="row">
+              <div class="col-md-2"></div>
+          <div class="col-md-3">
+            <img src="img/fastfood/chickenBurger.jpg" alt="Chicken Burger"/>
+            <br/><br/>
+            <h4>Chicken Burger</h4>
+          </div>
+        <div class="col-md-3">
+          <img src="img/fastfood/beefBurger.jpg" alt="Beef Burger"/>
+          <br/><br/>
+          <h4>Beef Burger</h4>
+        </div>
+        <div class="col-md-3">
+          <img src="img/fastfood/chickenPizza.jpg" alt="Chicken Pizza"/>
+          <br/><br/>
+          <h4>Chicken Pizza</h4>
+        </div>
+    </div>
+  </div>
+      <div id="drinks" class="tab-pane fade">
+        <img src="img/drink2.jpg" alt="Drink sample" class="juice"/>
+        <br/>
+        <h4 class="juice"><em><strong>We offer delicious drinks</strong></em></h4>
+      </div>
+      <div id="chicken" class="tab-pane fade">
+        <img src="img/fastFood1.jpg" alt="Chicken sample" class="chicken"/>
+        <br/>
+        <h4 class="chicken"><em><strong>Come check-out our secret recipe</strong></em></h4>
+      </div>
+      <div id="rice" class="tab-pane fade">
+        <img src="img/fastFood2.jpg" alt="Rice sample" class="rice"/>
+        <br/>
+        <p class="rice">Have a great moment with us</p>
+      </div>
+    </div>
+  </div>
+</div>
                 <div class="customers">
                   <div class="row">
                     <div class="col-md-6">

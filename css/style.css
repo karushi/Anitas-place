@@ -197,3 +197,48 @@ background-repeat: no-repeat;
   background-color:#F15A29;
   margin-left: 2
 }
+.snacks{
+background: url("../img/backgrounds/foodsBg.jpg");
+background-size: cover;
+}
+ul {
+font-size: 200%;
+
+}
+li{
+  padding-left:8%;
+}
+.nav{
+background-color: #D8D8D8 ;
+padding-left: 20%;
+color: black
+}
+.tab-content{
+background-color: white;
+color: #f15a29 ;
+font-size: 150%;
+padding-top: 3%;
+overflow: auto;
+}
+.snackTab{
+margin: 3%;
+padding: 5%;
+}
+/* unvisited link */
+a:link {
+  color: #A0A0A0 ;
+}
+
+/* visited link */
+a:visited {
+  color: #A0A0A0 ;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f15a29 ;
+}
+/* selected link */
+a:active {
+  color: #f15a29 ;
+}
