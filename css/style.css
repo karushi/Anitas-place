@@ -193,3 +193,7 @@ background-repeat: no-repeat;
    text-align: left;
    color: white;
  }
+.btn{
+  background-color:#F15A29;
+  margin-left: 2
+}
