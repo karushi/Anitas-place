@@ -1,52 +1,222 @@
+
 <html>
 
 <head>
   <title>Anita</title>
   <meta name="viewport" content="width=device-width, intial-scale=1.0">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--Font Stylesheets-->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <script src="js/scripts.js"></script>
+  <href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--JS scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="main">
-    <img src="img/logoBig.png" alt="banner" />
-    <p>We provide The Best Food </p>
-    <p>At The<strong> Right Price</strong></p>
-  </div>
-         <div class="row">
-           <div class="col-md-3">
-             <div class="col-md-12">
-               </div>
-           </div>
-             <div class="col-md-3">
-              <img src="img/foodtop/breakfast.jpg" alt="breakfast"/>
-            </div>
-                   <div class="col-md-3">
-                       <img src="img/foodtop/lunch.jpg" alt="my photo"/>
-                    </div>
-                          <div class="col-md-3">
-                            <img src="img/foodtop/dinner.jpg" alt="my photo"/>
-                         </div>
-                         </div>
-                      <div class="fastfood">
-                  <div class="row">
-                 <div class="col-md-6">
-                   <img src="img/fastFood1.jpg" alt="first food"/>
-                   <img src="img/fastFood2.jpg" alt="first food"/>
-                 </div>
-                       <div class="col-md-6">
-                        <h1>Fast Food</h1>
-                        <h5><strong>You Will love Our delicious fast food</strong></h5>
-            <p>
-              orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-               but also the leap into electronic typesetting, remaining essentially unchanged.
-            </p>
+  <i class="ion-navicon" id="open-nav"></i>
+          <nav>
+     <ul>
+       <li><a href="#">Menu</a></li>
+         <li><a href="#">Contact</a></li>
+          <li><a href="#">Galler</a></li>
+            </ul>
+            <i class="ion-close-round" id="close-nav"></i>
+               </nav>
 
+    <div class="main">
+      <img src="img/logoBig.png" alt="logo">
+      <p>We provide The Best Food </p>
+      <p>At The<strong> Right Price</strong></p>
+    </div>
+<div class="foodtop">
+   <div class="row">
+        <div class="col-md-3" id="happy2">
+          <div class="row happy">
+             <h3>Happy Hour</h3>
+           </div>
+           <div class="row party">
+                <h3>party time</h3>
+                </div>
+            </div>
+        <div class="col-md-3">
+          <img src="img/foodtop/breakfast.jpg" alt="breakfast" />
+          </div>
+
+        <div class="col-md-3">
+          <img src="img/foodtop/lunch.jpg" alt="my photo" />
+
+             </div>
+        <div class="col-md-3">
+          <img src="img/foodtop/dinner.jpg" alt="my photo" />
+    </div>
+      </div>
+    </div>
+
+
+      <div class="fastfood">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="shadow">
+              <img src="img/fastFood1.jpg" alt="first food" />
+              <img src="img/fastFood2.jpg" alt="first food" />
             </div>
           </div>
+          <div class="col-md-6">
+            <h1>Fast Food</h1>
+            <h5><strong>You Will love Our delicious fast food</strong></h5>
+            <p>
+              orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button src="btn"class="gallery">VIEW GALLERY &rarr;</button>
+          </div>
+        </div>
+       </div>
+        <div class="drink">
+          <div class="row">
+            <div class="col-md-5">
+              <h1>Drinks</h1>
+              <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </p>
+                <button src="btn"class="gallery2">VIEW GALLERY &rarr;</button>
+            </div>
+                  <div class="col-md-2">
+                 <img src="img/drink1.jpg" />
+                </div>
+               <div class "col-md-2">
+              <img src="img/drink2.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="snacks">
+    <div class="snackTab">
+    <ul class="nav nav-tabs">
+      <li  class="active"><a data-toggle="tab" href="#fastFood">Fast Food</a></li>
+      <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
+      <li><a data-toggle="tab" href="#chicken">Chicken</a></li>
+      <li><a data-toggle="tab" href="#rice">Rice</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="fastFood" class="tab-pane fade in active">
+        <div class="row">
+              <div class="col-md-2"></div>
+          <div class="col-md-3">
+            <img src="img/fastfood/chickenBurger.jpg" alt="Chicken Burger"/>
+            <br/><br/>
+            <h4>Chicken Burger</h4>
+          </div>
+<<<<<<< HEAD
          </div
+=======
+        <div class="col-md-3">
+          <img src="img/fastfood/beefBurger.jpg" alt="Beef Burger"/>
+          <br/><br/>
+          <h4>Beef Burger</h4>
+        </div>
+        <div class="col-md-3">
+          <img src="img/fastfood/chickenPizza.jpg" alt="Chicken Pizza"/>
+          <br/><br/>
+          <h4>Chicken Pizza</h4>
+        </div>
+    </div>
+  </div>
+      <div id="drinks" class="tab-pane fade">
+        <img src="img/drink2.jpg" alt="Drink sample" class="juice"/>
+        <br/>
+        <h4 class="juice"><em><strong>We offer delicious drinks</strong></em></h4>
+      </div>
+      <div id="chicken" class="tab-pane fade">
+        <img src="img/fastFood1.jpg" alt="Chicken sample" class="chicken"/>
+        <br/>
+        <h4 class="chicken"><em><strong>Come check-out our secret recipe</strong></em></h4>
+      </div>
+      <div id="rice" class="tab-pane fade">
+        <img src="img/fastFood2.jpg" alt="Rice sample" class="rice"/>
+        <br/>
+        <p class="rice">Have a great moment with us</p>
+      </div>
+    </div>
+  </div>
+</div>
+                <div class="customers">
+                  <div class="row">
+                    <div class="col-md-6">
+                  <h4>Our Happy Customers</h4>
+                  <h6>George Richard</h6>
+                  <p>  dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                  survived not </p>
+                  <div class="cast">
+                    <img src="img/customers/p1.png" alt="breakfast" />
+                      <img src="img/customers/p2.png" alt="my photo" />
+                        <img src="img/customers/p3.png" alt="my photo" />
+                      </div>
+                  </div>
+                <div class="col-md-6">
+                           <h4>About Menu</h4>
+                         <p>Lorem Ipsum has been the industry's standard dummy a<br>
+                           ver since the 1500s, when an unknown printer tooka </br>
+                            galley of type and scrambled it to make a type speo <br>
+                            galley of type and scrambled it to make a type spe<br>
+                            survived not only fivecenturies,remaining essen</br>
+                            ep into electronic ypesetting, remaining essend.</br>
+                         </p>
+                       </div>
+                    </div>
+                  </div>
+
+      <div class="main3">
+        <h1>Get our daily food items delivered to your email</h1>
+     <div class="email ">
+
+<form class="form-inline ">
+         <div class="form-group section-center ">
+           <input type="text " name="your email " class="form-control ">
+           <button class="btn" onclick="myFunction() ">subscribe</button>
+           <P id="subscribe "></P>
+         </div>
+       </form>
+     </div>
+   </div>
+
+
+   <div class="footer">
+     <div class="footer-menu backgroung-img ">
+   <div class="Tocenter ">
+     <h2 style="color: white; ">
+       <img src="img/footerlogos/logo_white.png " alt=" "> MENU</h2>
+     <p>Thats what we are</p>
+     <div class="social-panel ">
+       <img src="img/footerlogos/facebook.png ">
+       <img src="img/footerlogos/twitter.png ">
+       <img src="img/footerlogos/pinterest.png ">
+     </div>
+     <p>2016 menu restaurant</p>
+   </div>
+ </div>
+  </div>
+
+
+
+
+<script src="js/scripts.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+
+
+
+
+
+
+
+
+
+>>>>>>> gh-pages
 
 
 
