@@ -42,10 +42,19 @@ font-size: 500%;
 .main strong{
  color: white;
  font-family: 'Raleway',sans-serif;
+ margin-top:5%;
 
 }
 .happy{
-  color:grey;
+  background-color: white;
+  height: 15%;
+  padding-right: 0%;
+
+}
+#happy2{
+margin-right: 0%;
+padding-right: 0%;
+
 }
 .foodtop{
 background-color: #F15A29;
@@ -63,7 +72,6 @@ background-color: #F15A29;
   border-color:#F15A29;
   margin-left: 5%;
 
-}
 .fastfood h5{
   margin-left: 5%;
 }
